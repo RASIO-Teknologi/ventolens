@@ -1,0 +1,65 @@
+/* Font Declaration */
+.headline {
+    font-size: 44px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header-1 {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header-2 {
+    font-size: 24px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header-3 {
+    font-size: 20px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.body-1 {
+    font-size: 16px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+
+.body-2 {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+/* End Font Declaration */
+
+@media only screen and (max-width: 767.98px) {
+    .headline {
+        font-size: 34px;
+    }
+
+    .header-1 {
+        font-size: 28px;
+    }
+
+    .header-2 {
+        font-size: 28px;
+    }
+
+    .header-3 {
+        font-size: 24px;
+    }
+
+    .body-1 {
+        font-size: 14px;
+    }
+
+    .body-2 {
+        font-size: 12px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+}

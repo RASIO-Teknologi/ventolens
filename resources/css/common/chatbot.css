@@ -1,0 +1,157 @@
+/* Chat bot */
+.chatBotTrigger {
+    cursor: pointer;
+}
+
+.btn-whatsapp {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 3px solid var(--secondary);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 10;
+    transition: var(--transition);
+}
+
+.btn-whatsapp.order {
+    width: auto;
+    height: auto;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btn-whatsapp:hover {
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+#chatbotContainer {
+    transform-origin: bottom right;
+    width: 350px;
+    padding: 0px;
+    position: fixed;
+    z-index: 2147483646;
+    background: none;
+    bottom: 0;
+    right: 16px;
+    visibility: visible;
+    transform: scale(0);
+    transition: all 500ms ease;
+}
+
+#chatbotContainer.active {
+    transform: scale(1);
+}
+
+#chatbotContainer .card {
+    border-radius: 12px;
+}
+
+.cb-card-opening {
+    transform-origin: bottom right;
+    transition: all 500ms ease;
+    transform: scale(0);
+    height: 0;
+    margin-bottom: 120px;
+}
+
+.cb-card-opening.active {
+    transform: scale(1);
+    height: min-content;
+}
+
+.cb-logo {
+    width: 48px;
+    height: auto;
+    object-fit: contain;
+}
+
+.cb-close {
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    transition: all 200ms ease;
+}
+
+.cb-close:hover {
+    background-color: #e7e7e7;
+}
+
+.cb-card-conversation {
+    transform-origin: bottom right;
+    transition: all 500ms ease;
+    transform: scale(0);
+    margin-bottom: 0;
+    height: 0;
+}
+
+.cb-card-conversation.active {
+    transform: scale(1);
+    height: 460px;
+    margin-bottom: 120px;
+}
+
+.cb-card-conversation .card-body {
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+.cb-logo-chat {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.chat-container {
+    margin-bottom: 16px;
+}
+
+.chat-container .chat-text {
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3pt;
+    clear: both;
+    display: block;
+    line-height: 15pt;
+    margin: 4pt 0;
+    max-width: 95%;
+    padding: 6pt 9pt;
+    color: var(--black-v2) !important;
+}
+
+.chat-container.user .chat-text {
+    margin-left: auto;
+    max-width: 85%;
+    width: fit-content;
+}
+
+.chat-text.aiga {
+    background-color: #f5f5f5;
+    color: var(--black-v2) !important;
+}
+
+.chat-text.user {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.chat-container.button .btn {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+/* End Chat bot */
