@@ -58,7 +58,7 @@ h6 {
 }
 
 .btn-custom {
-    border-radius: var(--border-radius);
+    border-radius: 8px;
     background-color: var(--primary);
     font-family: var(--font-1);
     font-style: normal;

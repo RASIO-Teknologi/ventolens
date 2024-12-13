@@ -1,7 +1,8 @@
 <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent fixed-top">
     <div class="container-fluid">
         <a href="#">
-            <img
+            <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
+            <!-- <img
                 alt="Logo"
                 class="img-fluid navbar-logo"
                 width="117"
@@ -11,7 +12,7 @@
                 @else
                 src="{{ asset('front_assets/images/common/navbar-logo.svg') }}"
                 @endif
-            >
+            > -->
         </a>
         <button
             class="navbar-toggler color-black"

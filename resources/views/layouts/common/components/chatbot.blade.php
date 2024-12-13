@@ -2,10 +2,7 @@
     <article class="cb-card-opening card">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-center mb-4">
-                <img
-                class="img-fluid navbar-logo"
-                src="{{ asset('front_assets/images/common/navbar-logo.svg') }}"
-                alt="Logo Asep Stroberik">
+                <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
 
                 <button class="btn cb-close cb-close-opening">
                     <i class="fas fa-times"></i>
@@ -190,8 +187,8 @@
 
             {{-- Pilih sudah punya desain --}}
             <article class="chat-container button d-flex justify-content-center flex-wrap" id="desainSelectContainer" style="display: none !important">
-                <button class="btn btn-layout cb-data-keluhan chooseDesain m-2" data-jenis="Ya">Ya</button>
-                <button class="btn btn-layout cb-data-keluhan chooseDesain m-2" data-jenis="Tidak">Tidak</button>
+                <button class="btn btn-custom cb-data-keluhan chooseDesain m-2" data-jenis="Ya">Ya</button>
+                <button class="btn btn-custom cb-data-keluhan chooseDesain m-2" data-jenis="Tidak">Tidak</button>
                 <input type="hidden" id="selectDesain">
             </article>
             {{-- Pilih sudah punya desain --}}

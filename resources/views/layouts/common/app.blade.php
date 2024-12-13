@@ -12,7 +12,7 @@
             @if(View::hasSection('title'))
                 @yield('title')
             @else
-                Ahlinya Ahlinya Konsultan Pajak
+                Ventolens.id
             @endif
         </title>
 

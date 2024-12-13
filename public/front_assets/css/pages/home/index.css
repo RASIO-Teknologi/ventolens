@@ -75,7 +75,7 @@
 
 #galeriProduk .galeri-item.slick-slide .img-fluid {
     width: 713px;
-    height: 250px;
+    height: 350px;
     opacity: 25%;
     object-fit: cover;
 }

@@ -2,17 +2,7 @@
     <div class="container-fluid px-3 px-md-5">
         <div class="row">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                <img
-                    alt="Logo Ahlinya Psikolog"
-                    class="img-fluid footer-logo"
-                    width="180"
-                    height="74"
-                    @if ($footer !== null)
-                    src="{{ $footer->gambar($footer->logo) }}"
-                    @else
-                    src="{{ asset('front_assets/images/common/navbar-logo.svg') }}"
-                    @endif
-                    >
+                <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
 
                 <p class="body-1 color-grey-lightest mb-4">
                     @if ($footer !== null)
@@ -86,7 +76,7 @@
                 <h3 class="header-3 color-white font-weight-500 mb-4">Sosial Media Kami</h3>
 
                 <div class="d-flex order-1 order-md-2">
-                    <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_1 : '#!' }}">
+                    <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_1 : 'https://www.instagram.com/ventolens/' }}">
                             <img
                             alt="Instagram Ahlinya Psikolog"
                             class="img-fluid"
