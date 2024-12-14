@@ -1,7 +1,7 @@
 <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent fixed-top">
     <div class="container-fluid">
         <a href="#">
-            <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
+            <p class="h1 mt-4 mb-4 custom-font-color-grey">Ventolens.id</p>
             <!-- <img
                 alt="Logo"
                 class="img-fluid navbar-logo"

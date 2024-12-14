@@ -34,6 +34,15 @@
     line-height: normal;
     font-family: var(--font-2);
 }
+
+.custom-font-color-grey {
+    color: #444444;
+}
+
+.custom-font-color-white {
+    color: #e2e2e2;
+}
+
 /* End Font Declaration */
 
 @media only screen and (max-width: 767.98px) {

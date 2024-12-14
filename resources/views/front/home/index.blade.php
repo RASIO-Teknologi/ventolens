@@ -26,7 +26,7 @@ background-size: cover"
                 </p>
 
                 <div>
-                    <a class="btn btn-custom btn-lg" target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}">Hubungi Kami</a>
+                    <a class="btn btn-custom btn-custom-color-grey btn-lg" target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}">Hubungi Kami</a>
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@ background-size: cover"
                         </ol>
 
                         <div class="text-center mt-5">
-                            <button class="btn btn-custom">Hubungi Kami</button>
+                            <button class="btn btn-custom btn-custom-color-grey">Hubungi Kami</button>
                         </div>
                     </div>
                 </div>
@@ -318,7 +318,7 @@ background-size: cover"
                         </ol>
 
                         <div class="text-center mt-5">
-                            <button class="btn btn-custom">Hubungi Kami</button>
+                            <button class="btn btn-custom btn-custom-color-grey">Hubungi Kami</button>
                         </div>
                     </div>
                 </div>
@@ -409,7 +409,7 @@ background-size: cover"
                         </ol>
 
                         <div class="text-center mt-5">
-                            <button class="btn btn-custom">Hubungi Kami</button>
+                            <button class="btn btn-custom btn-custom-color-grey">Hubungi Kami</button>
                         </div>
                     </div>
                 </div>
@@ -514,7 +514,7 @@ background-size: cover"
                     @endif
                 </p>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a class="btn btn-custom" target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}">Hubungi Kami</a>
+                    <a class="btn btn-custom btn-custom-color-grey" target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}">Hubungi Kami</a>
                 </div>
             </div>
 
@@ -1038,7 +1038,7 @@ background-size: cover">
                     </h2>
 
                     <div class="d-flex justify-content-center">
-                        <a  target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}" class="btn promosi-btn btn-custom header-5">Hubungi Kami</a>
+                        <a  target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}" class="btn promosi-btn btn-custom btn-custom-color-grey header-5">Hubungi Kami</a>
                     </div>
                 </div>
             </div>

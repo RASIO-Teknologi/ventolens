@@ -2,7 +2,7 @@
     <div class="container-fluid px-3 px-md-5">
         <div class="row">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
+                <p class="h1 mt-4 mb-4 custom-font-color-white">Ventolens.id</p>
 
                 <p class="body-1 color-grey-lightest mb-4">
                     @if ($footer !== null)
@@ -13,7 +13,7 @@
                     @endif
                 </p>
 
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}" class="btn btn-custom">Hubungi Kami</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=62{{ $whatsapp !== null ? $whatsapp->telepon : '' }}" class="btn btn-custom btn-custom-color-grey">Hubungi Kami</a>
             </div>
 
             <div class="col-md-6 col-lg-4 mt-lg-4 mb-5 mb-lg-0">
@@ -78,50 +78,14 @@
                 <div class="d-flex order-1 order-md-2">
                     <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_1 : 'https://www.instagram.com/ventolens/' }}">
                             <img
-                            alt="Instagram Ahlinya Psikolog"
+                            alt="Ventolens.id"
                             class="img-fluid"
                             @if ($footer !== null)
                                 src="{{ $footer->gambar($footer->sosmed_icon_1) }}"
                             @else
-                                src="{{ asset('front_assets/images/common/social-ic-1.png') }}"
+                                src="{{ asset('front_assets/images/common/instagram-svgrepo-com.svg') }}"
                             @endif
                             >
-                    </a>
-
-                    <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_2 : '#!' }}">
-                        <img
-                        alt="Facebook Ahlinya Psikolog"
-                        class="img-fluid"
-                        @if ( $footer !== null)
-                            src="{{ $footer->gambar($footer->sosmed_icon_2) }}"
-                        @else
-                            src="{{ asset('front_assets/images/common/social-ic-2.png') }}"
-                        @endif
-                        >
-                    </a>
-
-                    <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_3 : '#!' }}">
-                        <img
-                        alt="Facebook Ahlinya Psikolog"
-                        class="img-fluid"
-                        @if ($footer !== null)
-                            src="{{ $footer->gambar($footer->sosmed_icon_3) }}"
-                        @else
-                            src="{{ asset('front_assets/images/common/social-ic-3.png') }}"
-                        @endif
-                        >
-                    </a>
-
-                    <a class="footer-social-item" href="{{ $footer !== null ? $footer->sosmed_link_4 : '#!' }}">
-                        <img
-                        alt="Facebook Ahlinya Psikolog"
-                        class="img-fluid"
-                        @if ( $footer !== null)
-                            src="{{ $footer->gambar($footer->sosmed_icon_4) }}"
-                        @else
-                            src="{{ asset('front_assets/images/common/social-ic-4.png') }}"
-                        @endif
-                        >
                     </a>
                 </div>
             </div>

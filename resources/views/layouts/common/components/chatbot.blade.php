@@ -2,7 +2,7 @@
     <article class="cb-card-opening card">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-center mb-4">
-                <p class="h1 mt-4 mb-4 text-danger">Ventolens.id</p>
+                <p class="h1 mt-4 mb-4 ml-2 custom-font-color-grey">Ventolens.id</p>
 
                 <button class="btn cb-close cb-close-opening">
                     <i class="fas fa-times"></i>
@@ -19,10 +19,7 @@
 
     <article class="cb-card-conversation card">
         <div class="card-header bg-white d-flex justify-content-between align-items-center border-bottom p-2">
-                <img
-                class="img-fluid navbar-logo mr-2"
-                src="{{ asset('front_assets/images/common/navbar-logo.svg') }}"
-                alt="Logo Asep Stroberik">
+            <p class="h1 mt-4 mb-4 ml-2 custom-font-color">Ventolens.id</p>
 
             <button class="btn cb-close cb-close-conversation">
                 <i class="fas fa-times"></i>
@@ -74,19 +71,18 @@
                 <div class="chat-text user"></div>
             </article>
 
-            {{-- produk submit --}}
+            <!-- {{-- produk submit --}}
             <article class="chat-container" id="chooseJenisContainer" style="display: none !important">
                 {{-- <input type="text" class="form-control" placeholder="Masukkan nama bunga" id="produkInput"> --}}
                 <select class="form-control" id="produkInput">
                     <option selected disabled>Pilih keperluan</option>
                     <option>Reservasi tempat</option>
-                    <option>Berbicara dengan CS</option>
                 </select>
                 <div class="d-flex justify-content-end mt-2">
                     <button class="btn btn-custom cb-data-keluhan btn-sm" id="produkSubmit">Kirim Data</button>
                 </div>
             </article>
-            {{-- produk submit --}}
+            {{-- produk submit --}} -->
 
             <article class="chat-container user" id="userReply3" style="display: none">
                 <div class="chat-text user"></div>
@@ -123,7 +119,7 @@
                 <div class="chat-text user"></div>
             </article>
 
-            <article class="chat-container aiga media" id="tanggalContainer" style="display: none !important">
+            <!-- <article class="chat-container aiga media" id="tanggalContainer" style="display: none !important">
                 <div class="media align-items-end">
                     <i class="fas fa-user color-primary header-1 mr-3"></i>
 
@@ -133,15 +129,15 @@
                         </div>
                     </div>
                 </div>
-            </article>
+            </article> -->
 
             {{-- Input tanggal --}}
-            <article class="chat-container input" id="inputTanggalContainer" style="display: none !important">
+            <!-- <article class="chat-container input" id="inputTanggalContainer" style="display: none !important">
                 <input type="number" class="form-control" id="tanggalInput" value="1" min="1">
                 <div class="d-flex justify-content-end mt-2">
                     <button class="btn btn-custom cb-data-keluhan btn-sm" id="tanggalSubmit">Kirim Data</button>
                 </div>
-            </article>
+            </article> -->
             {{-- Input tanggal --}}
 
             <article class="chat-container user" id="userReply6" style="display: none">
@@ -283,7 +279,7 @@
             </article>
 
             <article class="chat-container button d-flex justify-content-center flex-wrap" id="submitWhatsappButton" style="display: none !important">
-                <button class="btn btn-layout btn-block cb-data-keluhan m-2" id="submitWhatsapp">Lanjutkan Pesan</button>
+                <button class="btn btn-custom btn-block cb-data-keluhan m-2" id="submitWhatsapp">Lanjutkan Pesan</button>
             </article>
         </div>
     </article>

@@ -60,10 +60,13 @@ $('#nameSubmit').on('click', function () {
 
         $('#nameReply').hide();
 
-        $('#jenisBajuContainer').find('.chat-text').text(`Baik, Mas/Mba ${nama}. Apa yang bisa saya bantu hari ini?`)
-        $('#jenisBajuContainer').delay(500).fadeIn(500)
+        // $('#jenisBajuContainer').find('.chat-text').text(`Baik, Mas/Mba ${nama}. Apa yang bisa saya bantu hari ini?`)
+        // $('#jenisBajuContainer').delay(500).fadeIn(500)
 
-        $('#chooseJenisContainer').delay(800).fadeIn(500)
+        // $('#chooseJenisContainer').delay(800).fadeIn(500)
+
+        $('#kuantitasContainer').delay(500).fadeIn(500)
+        $('#inputKuantitasContainer').delay(800).fadeIn(500)
 
         setTimeout(() => {
             objDiv.scrollTop = objDiv.scrollHeight;
@@ -74,35 +77,35 @@ $('#nameSubmit').on('click', function () {
 });
 
 // Select Jenis
-$('#produkSubmit').click(function (e) {
-    const val = $('#produkInput').val();
+// $('#produkSubmit').click(function (e) {
+//     const val = $('#produkInput').val();
 
-    if(!val) return alert('Tolong pilih keperluan Mas/Mba!');
+//     if(!val) return alert('Tolong pilih keperluan Mas/Mba!');
 
-    let replyUser = `Ingin ${val}`;
+//     let replyUser = `Ingin ${val}`;
 
-    objDiv.scrollTop = objDiv.scrollHeight;
+//     objDiv.scrollTop = objDiv.scrollHeight;
 
-    $('#kuantitasContainer').find('span').text($('#nameInput').val())
+//     $('#kuantitasContainer').find('span').text($('#nameInput').val())
 
-    $('#chooseJenisContainer').removeClass('d-flex').hide();
+//     $('#chooseJenisContainer').removeClass('d-flex').hide();
 
-    $('#userReply3').find('.chat-text').text(replyUser);
-    $('#userReply3').show()
+//     $('#userReply3').find('.chat-text').text(replyUser);
+//     $('#userReply3').show()
 
-    if (val.toLowerCase() === "reservasi tempat") {
-        $('#kuantitasContainer').delay(500).fadeIn(500)
-        $('#inputKuantitasContainer').delay(800).fadeIn(500)
-    } else {
-        $('#n-choice').delay(500).fadeIn(500)
-        $('#i-n-choice-container').delay(800).fadeIn(500)
-    }
+//     if (val.toLowerCase() === "reservasi tempat") {
+//         $('#kuantitasContainer').delay(500).fadeIn(500)
+//         $('#inputKuantitasContainer').delay(800).fadeIn(500)
+//     } else {
+//         $('#n-choice').delay(500).fadeIn(500)
+//         $('#i-n-choice-container').delay(800).fadeIn(500)
+//     }
 
 
-    setTimeout(() => {
-        objDiv.scrollTop = objDiv.scrollHeight;
-    }, 2000);
-});
+//     setTimeout(() => {
+//         objDiv.scrollTop = objDiv.scrollHeight;
+//     }, 2000);
+// });
 
 $('#kuantitasInput').on('input', function() {
     if ($(this).val() < 0) {
@@ -128,9 +131,12 @@ $('#kuantitasSubmit').on('click', function() {
 
     $('#inputKuantitasContainer').hide();
 
-    $('#tanggalContainer').delay(500).fadeIn(500)
+    // $('#tanggalContainer').delay(500).fadeIn(500)
 
-    $('#inputTanggalContainer').delay(800).fadeIn(500)
+    // $('#inputTanggalContainer').delay(800).fadeIn(500)
+    $('#nomorContainer').delay(500).fadeIn(500)
+
+    $('#inputNomorContainer').delay(800).fadeIn(500)
 
     setTimeout(() => {
         objDiv.scrollTop = objDiv.scrollHeight;
@@ -162,9 +168,9 @@ $('#tanggalSubmit').on('click', function() {
 
         $('#inputTanggalContainer').hide();
 
-        $('#nomorContainer').delay(500).fadeIn(500)
+        // $('#nomorContainer').delay(500).fadeIn(500)
 
-        $('#inputNomorContainer').delay(800).fadeIn(500)
+        // $('#inputNomorContainer').delay(800).fadeIn(500)
 
         setTimeout(() => {
             objDiv.scrollTop = objDiv.scrollHeight;
@@ -192,9 +198,10 @@ $('#nomorSubmit').on('click', function() {
 
     $('#inputNomorContainer').hide();
 
-    $('#desainContainer').delay(500).fadeIn(500)
-
-    $('#desainSelectContainer').delay(800).fadeIn(500)
+    // here
+    $('#n-choice').delay(500).fadeIn(500)
+    
+    $('#i-n-choice-container').delay(500).fadeIn(500)
 
     setTimeout(() => {
         objDiv.scrollTop = objDiv.scrollHeight;
